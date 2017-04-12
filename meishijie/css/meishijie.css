@@ -1,0 +1,310 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	
+}
+.box{
+	width: 1348px;
+	margin: auto;
+	
+}
+.tou{
+	width: 1348px;
+	height: 130px;
+	background: #D10F12;
+}
+.tou img{
+	width: 160px;
+	height: 90px;
+	float: left;
+	
+	margin: 20px 0 0  200px;
+}
+.sech{
+	width: 420px;
+	height: 36px;
+	float: left;
+	background: white;
+	border-radius: 5px;
+	margin: 45px 0 0 70px;
+}
+.sech input{
+	width: 360px;
+	height: 36px;
+	line-height: 36px;
+	float: left;
+	text-indent: 0.3rem;
+}
+.sech p{
+	width: 56px;
+	height: 32px;
+	line-height: 32px;
+	float: left;
+	margin: 2px 0 0 0px;
+	background: #A8000F;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+}
+
+.tou ul{
+	width: 260px;
+	height: 36px;
+	margin: 45px 0 0 74px;
+	
+	float: left;
+}
+.tou ul a{
+	
+	float: left;	
+	line-height: 36px;
+	font-size: 14px;
+	color: white;
+	margin-left: 10px;
+	
+}
+
+.tou ul a>img{
+	width: 20px;
+	height: 20px;
+	margin-left: 0;
+	margin-top: 8px;
+	float: left;
+}
+.tou ul a>p{	
+	margin-left: 4px;
+	float: left;
+}
+/*.nav{
+	width: 1348px;
+	height: 75px;
+	box-shadow: 0 5px 2px #ccc;
+	background: white;
+}
+.nav ul{
+	width: 900px;
+	height: 75px;
+	line-height: 75px;
+	margin: auto;
+}
+.nav ul li{	
+	float: left;
+	margin-left: 40px;
+	list-style: none;
+	font-weight:300;
+}
+.nav ul li:hover{
+	           display: block;
+              color: #FFA850;
+              border-bottom: 3px solid #FFA850;
+	
+	
+}*/
+
+
+.nav {
+	height: 76px;
+	width: 100%;
+	background: #fff;
+	box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.3);
+	position: relative;
+	z-index: 2000;
+}
+
+.nav ul {
+	height: 76px;
+	width: 990px;
+	margin: 0px auto;
+}
+
+.nav ul li {
+	display: inline-block;
+	vertical-align: top;
+	*display: inline;
+	*zoom: 1;
+	height: 76px;
+}
+
+.nav ul li.hasmore {
+	background: url(../images/msj_menuarrow.gif?v=3) right center no-repeat;
+}
+
+.nav ul li a.link {
+	display: inline-block;
+	vertical-align: top;
+	*display: inline;
+	*zoom: 1;
+	padding: 0px 24px;
+	height: 76px;
+	line-height: 76px;
+	font-size: 18px;
+	color: #444;
+	font-family: Microsoft Yahei, 黑体;
+	font-weight: bold;
+	position: relative;
+}
+
+.nav ul li a.link .newicon_nav {
+	position: absolute;
+	right: -30px;
+	top: 3px;
+	height: 27px;
+	width: 58px;
+}
+
+.nav ul li a.link .newicon_nav img {
+	display: block;
+	height: 27px;
+	width: 58px;
+}
+
+.nav ul li a.link strong {
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	*display: inline;
+	*zoom: 1;
+	height: 76px;
+}
+
+
+/*.nav ul li a.link:hover{background:#fafafa;}*/
+
+.nav ul li a.link:hover strong {
+	cursor: pointer;
+}
+
+.nav ul li span.no {
+	display: inline-block;
+	vertical-align: top;
+	*display: inline;
+	*zoom: 1;
+	padding: 0px 30px;
+	height: 76px;
+	line-height: 76px;
+	font-size: 19px;
+	color: #444;
+	font-family: Microsoft Yahei, 黑体;
+	font-weight: bold;
+}
+
+.nav ul li span.no strong {
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	*display: inline;
+	*zoom: 1;
+	height: 76px;
+	color: #999;
+}
+
+.nav ul li.current a strong {
+	border-bottom: 4px solid #ff3232;
+	height: 72px;
+	overflow: hidden;
+}
+
+.nav ul li.current span strong {
+	border-bottom: 4px solid #ff3232;
+	height: 72px;
+	overflow: hidden;
+	color: #999;
+}
+
+.nav ul li.on a.link {
+	background: #fafafa;
+}
+
+.nav ul li.on a.link strong {}
+
+.nav ul li .dw {
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	top: 76px;
+	display: none;
+	*zoom: 1;
+	_width: auto;
+}
+
+.nav ul li .dw .dww {
+	width: 930px;
+	margin: 0px auto;
+	background: #fafafa;
+	position: relative;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+	padding: 18px 30px 24px;
+}
+
+.nav ul li .dw .dww_cpdq .bgitem {
+	background: url(../images/jccp_navbgg.png) right bottom no-repeat;
+	position: absolute;
+	right: -60px;
+	bottom: -30px;
+	height: 226px;
+	width: 406px;
+}
+
+.nav ul li .dw .dww_ysjk .bgitem {
+	background: url(../images/ysjk_navbg.png) right bottom no-repeat;
+	position: absolute;
+	right: -60px;
+	bottom: -30px;
+	height: 208px;
+	width: 325px;
+}
+
+.nav ul li.on .dw {
+	display: block;
+}
+
+.nav ul li .dw .dwitem {
+	display: inline-block;
+	vertical-align: top;
+	*zoom: 1;
+	*display: inline;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 0px 10px 12px 0px;
+}
+
+.nav ul li .dw .dwitem_half {
+	width: 330px;
+}
+
+.nav ul li .dw .dwitem dl {}
+
+.nav ul li .dw .dwitem dl dt {
+	display: block;
+	height: 24px;
+	line-height: 24px;
+}
+
+.nav ul li .dw .dwitem dl dt a {
+	color: #ff3232;
+	font-size: 17px;
+	font-family: Microsoft Yahei, 黑体;
+}
+
+.nav ul li .dw .dwitem dl dd {
+	display: inline-block;
+	vertical-align: top;
+	*display: inline;
+	*zoom: 1;
+	height: 24px;
+	line-height: 24px;
+	padding-right: 14px;
+}
+
+.nav ul li .dw .dwitem dl dd a {
+	color: #999;
+	font-size: 12px;
+}
+
+.nav ul li .dw .dwitem dl a:hover {
+	background: #ff3232;
+	color: #fff;
+}
