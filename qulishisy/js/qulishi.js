@@ -65,4 +65,70 @@ window.onload = function () {
 		oright.style.display = 'none';
 		timer = setInterval(y,1000);
 	};	
+	
+	
+	
+	
+	function time(){
+    //获得显示时间的div
+    t_div = document.getElementById('showtime');
+   var now=new Date()
+    //替换div内容 
+   t_div.innerHTML = "现在是"+now.getFullYear()
+    +"年"+(now.getMonth()+1)+"月"+now.getDate()
+    +"日"+now.getHours()+"时"+now.getMinutes()
+    +"分"+now.getSeconds()+"秒";
+    //等待一秒钟后调用time方法，由于settimeout在time方法内，所以可以无限调用
+   setTimeout(time,1000);
+  }
+	
+	
+	var historyWarName=document.getElementsByClassName('historyWarName')
+	for(var i=0;i<ull.children.length;i++){ 
+		ull.children[i].index=i;	
+		ull.children[i]['onmouseover']=function(){
+			for(var i=0;i<ull.children.length;i++){
+				historyWarName[i].style.display="none"
+				
+			}
+		   historyWarName[this.index].style.display="block"
+		   
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	var renwu1_b=document.getElementsByClassName('renwu1_b')
+	for(var i=0;i<rwul.children.length;i++){ 
+		rwul.children[i].index=i;	
+		rwul.children[i]['onmouseover']=function(){
+			for(var i=0;i<rwul.children.length;i++){
+				renwu1_b[i].style.display="none"
+				
+			}
+		  renwu1_b[this.index].style.display="block"
+		   
+		}
+	}
+	
+	
+	
+	
+	
 };
+
+
+
+
+
+
+
+
