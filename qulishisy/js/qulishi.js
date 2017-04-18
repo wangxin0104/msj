@@ -123,6 +123,49 @@ window.onload = function () {
 	
 	
 	
+var guanyu_t=document.getElementsByClassName('guanyu_t')
+	for(var i=0;i<zhangchang_nav.children.length;i++){ 
+		zhangchang_nav.children[i].index=i;	
+		zhangchang_nav.children[i]['onmouseover']=function(){
+			for(var i=0;i<zhangchang_nav.children.length;i++){
+				guanyu_t[i].style.display="none"
+				
+			}
+		 guanyu_t[this.index].style.display="block"
+		   
+		}
+	}
+		
+	
+	
+	
+	
+	
+	
+	
+	
+//	var zhanyi=document.getElementsByClassName('zhanyi')
+//	for(var i=0;i<mingzhan_nav.children.length;i++){ 
+//		mingzhan_nav.children[i].index=i;	
+//		mingzhan_nav.children[i].onmouseover=function(){
+//			for(var i=0;i<mingzhan_nav.children.length;i++){
+//				zhanyi[i].style.display="none"
+//				
+//			}
+//		 zhanyi[this.index].style.display="block"
+//		   
+//		}
+//		
+//	}
+//	
+	
+		
+	
+		
+	
+	
+	
+	
 };
 
 
